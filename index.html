@@ -9,19 +9,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/96270d5280.js" crossorigin="anonymous"></script>
 </head>
 
 <body class=" min-h-screen bg-gradient-to-t from-gray-700 via-gray-900 to-black">
 
     <nav class="p-6 text-lg">
         <div class="container flex justify-between items-center text-neutral-400">
-            <ul class="flex ml-9 space-x-7">
-                <li class="hover:underline hover:underline-offset-4 hover:decoration-amber-400 hover:text-white hover:transition-colors "><a href="">Marketplace</a></li>
-                <li class="hover:underline hover:underline-offset-4 hover:decoration-amber-400 hover:text-white hover:transition-colors "><a href="">Artists</a></li>
-                <li class="hover:underline hover:underline-offset-4 hover:decoration-amber-400 hover:text-white hover:transition-colors "><a href="">Community</a></li>
-                <li class="hover:underline hover:underline-offset-4 hover:decoration-amber-400 hover:text-white hover:transition-colors "><a href="">Collection</a></li>
-            </ul>
-                <button class="px-8 py-4 rounded-xl bg-yellow text-white">Contact</button>
+            <button class="text-yellow px-5 py-4 lg:hidden text-2xl"><i class="fa-solid fa-bars"></i></button>
+            <div class="hidden lg:flex">
+                <ul class="flex ml-9 space-x-7 ">
+                    <li class="hover:underline hover:underline-offset-4 hover:decoration-amber-400 hover:text-white hover:transition-colors "><a href="">Marketplace</a></li>
+                    <li class="hover:underline hover:underline-offset-4 hover:decoration-amber-400 hover:text-white hover:transition-colors "><a href="">Artists</a></li>
+                    <li class="hover:underline hover:underline-offset-4 hover:decoration-amber-400 hover:text-white hover:transition-colors "><a href="">Community</a></li>
+                    <li class="hover:underline hover:underline-offset-4 hover:decoration-amber-400 hover:text-white hover:transition-colors "><a href="">Collection</a></li>
+                </ul>
+            </div>
+                <button class="px-9 py-2 rounded-xl bg-yellow text-neutral-50">Contact</button>
         </div>
     </nav>
 
