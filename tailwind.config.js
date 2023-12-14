@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Roboto': ['Roboto', 'sans-serif']
+        bitter: ['Bitter', 'serif']
       },
       colors: {
         yellow: '#D6EF0E'
