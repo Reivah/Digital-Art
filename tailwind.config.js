@@ -7,7 +7,8 @@ module.exports = {
         bitter: ['Bitter', 'serif']
       },
       colors: {
-        yellow: '#D6EF0E'
+        yellow: '#D6EF0E',
+        veryDarkBlue: 'hsl(226, 43%, 10%)',
       }
     },
   },
