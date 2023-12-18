@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         yellow: '#D6EF0E',
         veryDarkBlue: 'hsl(226, 43%, 10%)',
+        shadowBlue: 'rgba(39, 67, 189, 0.11)'
       }
     },
   },
