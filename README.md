@@ -23,5 +23,5 @@ Inspired by NFTs Digital Art by davixq, this project aims to provide a similar e
 
 ## Demo
 
-https://reivah.github.io/Digital-Website/
+ https://reivah.github.io/Digital-Art/
 
